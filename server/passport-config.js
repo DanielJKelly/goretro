@@ -3,7 +3,7 @@ const session = require('express-session');
 const Strategy = require('passport-facebook').Strategy;
 const db = require('../database/index');
 
-const url = 'http://localhost:8080';
+const url = 'https://goretro.herokuapp.com';
 const User = db.User;
 
 passport.use(new Strategy({
